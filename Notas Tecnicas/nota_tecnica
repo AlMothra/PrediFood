@@ -1,0 +1,35 @@
+Nota Técnica del Sistema PrediFood
+Este documento resume los componentes clave del sistema desarrollado para la optimización del abastecimiento en restaurantes mediante técnicas de Machine Learning.
+
+Arquitectura General del Sistema
+El sistema se compone de las siguientes capas:
+
+Interfaz web/móvil: permite la visualización de predicciones, alertas y métricas operativas.
+
+Backend analítico: gestiona el procesamiento de datos, entrenamiento de modelos y generación de resultados.
+
+Base de datos: almacena información histórica de insumos, pedidos y predicciones.
+
+Visualización: dashboards integrados para análisis y toma de decisiones.
+
+Ver imagen: arquitectura_sistema.png
+
+Flujo de Datos
+El recorrido de los datos sigue esta secuencia:
+
+Entrada de registros operativos desde el sistema del restaurante.
+
+Preprocesamiento: limpieza, normalización y estructuración.
+
+Modelado: aplicación de algoritmos de predicción.
+
+Salida: visualización de resultados y generación de alertas.
+
+Ver imagen: flujo_datos.png
+
+Consideraciones
+Esta nota técnica presenta una versión simplificada del sistema con fines demostrativos.
+
+No se incluyen configuraciones internas ni código fuente por motivos de protección intelectual.
+
+
