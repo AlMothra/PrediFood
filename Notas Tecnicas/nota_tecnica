@@ -1,35 +1,29 @@
 Nota Técnica del Sistema PrediFood
-Este documento resume los componentes clave del sistema desarrollado para la optimización del abastecimiento en restaurantes mediante técnicas de Machine Learning.
+Este documento presenta los componentes estructurales del sistema PrediFood, desarrollado para optimizar el abastecimiento de insumos alimentarios en restaurantes mediante técnicas de Machine Learning. La información aquí contenida corresponde a una versión demostrativa del sistema, orientada a fines académicos y profesionales.
 
-Arquitectura General del Sistema
-El sistema se compone de las siguientes capas:
+Arquitectura Lógica del Sistema
+El sistema se organiza en capas funcionales que permiten una separación clara de responsabilidades:
 
-Interfaz web/móvil: permite la visualización de predicciones, alertas y métricas operativas.
+Interfaz web/móvil: visualización de predicciones, alertas y métricas operativas.
 
-Backend analítico: gestiona el procesamiento de datos, entrenamiento de modelos y generación de resultados.
+Backend analítico: procesamiento de datos, entrenamiento de modelos y generación de resultados.
 
-Base de datos: almacena información histórica de insumos, pedidos y predicciones.
+Base de datos: almacenamiento estructurado de insumos, pedidos, usuarios y predicciones.
 
 Visualización: dashboards integrados para análisis y toma de decisiones.
 
 Ver imagen: arquitectura_sistema.png
 
-Flujo de Datos
-El recorrido de los datos sigue esta secuencia:
+Modelo de Datos (UML)
+El sistema se apoya en un modelo relacional compuesto por entidades como menus, orders, users, predictions y algorithms. Estas entidades permiten gestionar la información operativa y analítica de forma eficiente.
 
-Entrada de registros operativos desde el sistema del restaurante.
+Ver imagen: diagrama_bd.png
 
-Preprocesamiento: limpieza, normalización y estructuración.
-
-Modelado: aplicación de algoritmos de predicción.
-
-Salida: visualización de resultados y generación de alertas.
-
-Ver imagen: flujo_datos.png
+Este diagrama representa la estructura lógica del sistema. No se incluye el modelo físico ni configuraciones internas por motivos de protección intelectual.
 
 Consideraciones
 Esta nota técnica presenta una versión simplificada del sistema con fines demostrativos.
 
-No se incluyen configuraciones internas ni código fuente por motivos de protección intelectual.
+No se incluyen scripts, configuraciones ni datos reales.
 
-
+Las imágenes han sido sanitizadas para evitar la exposición de información sensible.
