@@ -1,24 +1,23 @@
 Análisis Comparativo de Modelos de Predicción
 Este documento presenta una evaluación técnica de distintos modelos de regresión aplicados en el sistema PrediFood. Las métricas utilizadas incluyen MSE, RMSE y MAE, con visualizaciones que permiten comparar el rendimiento relativo de cada enfoque.
 
-Comparación de Modelos: Métrica MSE
+--Comparación de Modelos: Métrica MSE
 
 Este gráfico de barras muestra la variación del error cuadrático medio (MSE) entre distintos enfoques de regresión utilizados en el sistema PrediFood. Se evaluaron modelos como Random Forest, Gradient Boosting, Ridge Regression, Lasso Regression, Linear SVR y una red neuronal tipo MLP.
-
 Gradient Boosting presenta el menor MSE, lo que sugiere una mayor precisión en la predicción bajo las condiciones evaluadas.
 
-Comparación de Modelos: Métrica RMSE
+--Comparación de Modelos: Métrica RMSE
 
 Este gráfico de barras muestra la variación del error cuadrático medio raíz (RMSE) entre distintos modelos de regresión evaluados en PrediFood. Gradient Boosting vuelve a destacar con el menor RMSE, lo que refuerza su consistencia en escenarios de predicción evaluados.
 
-Comparación de Modelos: Métrica MAE
+--Comparación de Modelos: Métrica MAE
 
 Este gráfico de líneas muestra la variación del error absoluto medio (MAE) entre distintos modelos de regresión aplicados en PrediFood. Gradient Boosting presenta el menor MAE, lo que sugiere una mayor estabilidad en sus predicciones. En contraste, Linear SVR muestra el mayor MAE dentro del conjunto evaluado.
 
-Comparación Cruzada: MSE vs RMSE
+--Comparación Cruzada: MSE vs RMSE
 
 Este gráfico de dispersión muestra la relación entre el MSE y el RMSE para distintos modelos de regresión. Gradient Boosting destaca como el modelo con menor MSE y RMSE, mientras que Linear SVR presenta los valores más altos, indicando menor precisión en los escenarios evaluados.
 
-Comparación Compuesta: MAE vs RMSE por Modelo
+--Comparación Compuesta: MAE vs RMSE por Modelo
 
 Este gráfico de barras muestra la relación entre MAE y RMSE para seis modelos de regresión. En todos los casos, el RMSE supera al MAE, lo que es esperable dado que penaliza más fuertemente los errores grandes. Esta comparación conjunta refuerza la evaluación relativa del rendimiento de cada modelo.
